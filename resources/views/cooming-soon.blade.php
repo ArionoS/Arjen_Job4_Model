@@ -7,17 +7,17 @@
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--fontawesome css-->
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="b/css/font-awesome.min.css">
       <!--bootstrap css-->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="b/css/bootstrap.min.css">
       <!--animate css-->
-      <link rel="stylesheet" href="css/animate-wow.css">
+      <link rel="stylesheet" href="b/css/animate-wow.css">
       <!--main css-->
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="b/css/style.css">
+      <link rel="stylesheet" href="b/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="b/css/slick.min.css">
       <!--responsive css-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="b/css/responsive.css">
    </head>
    <body>
       <div class="cooming-soon-box">
@@ -29,12 +29,12 @@
                      <div class="top-soon clearfix">
                         <div class="col-md-6 col-sm-6 col-xs-6">
                            <div class="cooming-logo">
-                              <a href="#"><img width="100px" src="images/logo_w.png" alt="" /></a>
+                              <a href="#"><img width="100px" src="b/images/logo_w.png" alt="" /></a>
                            </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                            <ul class="right-flag">
-                              <li><a data-toggle="modal" data-target="#myModal" href="#"><span>Change</span> <img src="images/flag.png" alt="" /></a></li>
+                              <li><a data-toggle="modal" data-target="#myModal" href="#"><span>Change</span> <img src="b/images/flag.png" alt="" /></a></li>
                            </ul>
                         </div>
                      </div>
@@ -56,7 +56,7 @@
                   </div>
                   <div class="col-md-12">
                      <div class="cooming-pc-box wow fadeIn">
-                        <img src="images/cooming-pc.png" alt="" />
+                        <img src="b/images/cooming-pc.png" alt="" />
                      </div>
                   </div>
                   <div class="col-lg-6 col-lg-offset-3">
@@ -94,21 +94,21 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
-                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                     <li><a href="#"><img src="b/images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="b/images/flag-up-2.png" alt="" /> France </a></li>
                   </ul>
                </div>
             </div>
          </div>
       </div>
       <!--main js--> 
-      <script src="js/jquery-1.12.4.min.js"></script> 
+      <script src="b/js/jquery-1.12.4.min.js"></script> 
       <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script>
-      <script src="js/wow.min.js"></script> 
+      <script src="b/js/bootstrap.min.js"></script> 
+      <script src="b/js/bootstrap-select.min.js"></script>
+      <script src="b/js/slick.min.js"></script>
+      <script src="b/js/wow.min.js"></script> 
       <!--custom js--> 
-      <script src="js/custom.js"></script>
+      <script src="b/js/custom.js"></script>
    </body>
 </html>

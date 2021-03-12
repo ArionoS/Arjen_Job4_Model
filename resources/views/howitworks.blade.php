@@ -7,17 +7,17 @@
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--fontawesome css-->
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="b/css/font-awesome.min.css">
       <!--bootstrap css-->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="b/css/bootstrap.min.css">
       <!--animate css-->
-      <link rel="stylesheet" href="css/animate-wow.css">
+      <link rel="stylesheet" href="b/css/animate-wow.css">
       <!--main css-->
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="b/css/style.css">
+      <link rel="stylesheet" href="b/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="b/css/slick.min.css">
       <!--responsive css-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="b/css/responsive.css">
    </head>
    <body>
       <header id="header" class="top-head">
@@ -54,8 +54,8 @@
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="b/images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="b/images/help-icon.png" alt="" /> Help </a> </li>
                               </ul>
                            </div>
                         </div>
@@ -85,8 +85,8 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
-                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                     <li><a href="#"><img src="b/images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="b/images/flag-up-2.png" alt="" /> France </a></li>
                   </ul>
                </div>
             </div>
@@ -124,7 +124,7 @@
                         <div class="how-text-left">01</div>
                         <div class="how-dit-right">
                            <div class="dit-img">
-                              <img class="img-responsive" src="images/works-icon-01.png" alt="" />
+                              <img class="img-responsive" src="b/images/works-icon-01.png" alt="" />
                            </div>
                            <h3>Sign up</h3>
                            <h2><span>Small or big,</span><br> we have the solution.</h2>
@@ -143,7 +143,7 @@
                         <div class="how-text-left">02</div>
                         <div class="how-dit-right">
                            <div class="dit-img">
-                              <img class="img-responsive" src="images/works-icon-02.png" alt="" />
+                              <img class="img-responsive" src="b/images/works-icon-02.png" alt="" />
                            </div>
                            <h3>Search</h3>
                            <h2>We revolutionized <br> <span>searching.</span></h2>
@@ -162,7 +162,7 @@
                         <div class="how-text-left">03</div>
                         <div class="how-dit-right">
                            <div class="dit-img">
-                              <img class="img-responsive" src="images/works-icon-03.png" alt="" />
+                              <img class="img-responsive" src="b/images/works-icon-03.png" alt="" />
                            </div>
                            <h3>Contact & buy</h3>
                            <h2>Contact sellers <br>and <span>start buying</span></h2>
@@ -201,14 +201,14 @@
                </div>
                <div class="col-md-7 col-sm-6 col-xs-12">
                   <div class="sys-box-right-a wow fadeIn" data-wow-delay="0.4s">
-                     <img class="img-responsive" src="images/creat_pro.png" alt="" />
+                     <img class="img-responsive" src="b/images/creat_pro.png" alt="" />
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="sys-box-left-b wow fadeIn" data-wow-delay="0.2s">
-                     <img src="images/how-is-works-img-02.jpg" alt="" />
+                     <img src="b/images/how-is-works-img-02.jpg" alt="" />
                   </div>
                </div>
                <div class="col-md-6 col-sm-6 col-xs-12">
@@ -245,7 +245,7 @@
                </div>
                <div class="col-md-7 col-sm-6 col-xs-12">
                   <div class="sys-box-right-c wow fadeIn" data-wow-delay="0.4s">
-                     <img src="images/how-is-works-img-03.png" alt="" />
+                     <img src="b/images/how-is-works-img-03.png" alt="" />
                   </div>
                </div>
             </div>
@@ -260,7 +260,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b1.png" alt="" />
+                        <img src="b/images/icon-b1.png" alt="" />
                      </div>
                      <h3>Branden Minisite</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -271,7 +271,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b2.png" alt="" />
+                        <img src="b/images/icon-b2.png" alt="" />
                      </div>
                      <h3>Vetted Sellers</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -282,7 +282,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b3.png" alt="" />
+                        <img src="b/images/icon-b3.png" alt="" />
                      </div>
                      <h3>Verified with 3. part</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -293,7 +293,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b4.png" alt="" />
+                        <img src="b/images/icon-b4.png" alt="" />
                      </div>
                      <h3>Data Protection</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -304,7 +304,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b5.png" alt="" />
+                        <img src="b/images/icon-b5.png" alt="" />
                      </div>
                      <h3>Support</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -315,7 +315,7 @@
                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
                   <div class="benenfit-box">
                      <div class="icon-b">
-                        <img src="images/icon-b1.png" alt="" />
+                        <img src="b/images/icon-b1.png" alt="" />
                      </div>
                      <h3>Branden Minisite</h3>
                      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms 
@@ -528,7 +528,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="b/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
@@ -554,7 +554,7 @@
                         </li>
                      </ul>
                      <ul class="right-flag">
-                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                        <li><a href="#"><img src="b/images/flag.png" alt="" /> <span>Change</span></a></li>
                      </ul>
                   </div>
                </div>
@@ -562,13 +562,13 @@
          </div>
       </footer>
       <!--main js--> 
-      <script src="js/jquery-1.12.4.min.js"></script> 
+      <script src="b/js/jquery-1.12.4.min.js"></script> 
       <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/wow.min.js"></script> 
+      <script src="b/js/bootstrap.min.js"></script> 
+      <script src="b/js/bootstrap-select.min.js"></script>
+      <script src="b/js/slick.min.js"></script> 
+      <script src="b/js/wow.min.js"></script> 
       <!--custom js--> 
-      <script src="js/custom.js"></script>
+      <script src="b/js/custom.js"></script>
    </body>
 </html>

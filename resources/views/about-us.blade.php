@@ -7,17 +7,17 @@
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--fontawesome css-->
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="b/css/font-awesome.min.css">
       <!--bootstrap css-->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="b/css/bootstrap.min.css">
       <!--animate css-->
-      <link rel="stylesheet" href="css/animate-wow.css">
+      <link rel="stylesheet" href="b/css/animate-wow.css">
       <!--main css-->
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="b/css/style.css">
+      <link rel="stylesheet" href="b/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="b/css/slick.min.css">
       <!--responsive css-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="b/css/responsive.css">
    </head>
    <body>
       <header id="header" class="top-head">
@@ -33,7 +33,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="index.html" class="navbar-brand"><img src="b/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -54,8 +54,8 @@
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="b/images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="b/images/help-icon.png" alt="" /> Help </a> </li>
                               </ul>
                            </div>
                         </div>
@@ -85,8 +85,8 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
-                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                     <li><a href="#"><img src="b/images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="b/images/flag-up-2.png" alt="" /> France </a></li>
                   </ul>
                </div>
             </div>
@@ -116,9 +116,9 @@
                         </p>
                      </div>
                      <div class="about-icons row">
-                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.0s"><img src="images/about-icon-1.png" alt=""/></div>
-                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.2s"><img src="images/about-icon-2.png" alt=""/></div>
-                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.4s"><img src="images/about-icon-3.png" alt=""/></div>
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.0s"><img src="b/images/about-icon-1.png" alt=""/></div>
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.2s"><img src="b/images/about-icon-2.png" alt=""/></div>
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.4s"><img src="b/images/about-icon-3.png" alt=""/></div>
                      </div>
                   </div>
                </div>
@@ -148,7 +148,7 @@
                               that helps discover and build profitable long-lasting networks amongst businesses around the world.
                            </p>
                         </div>
-                        <img class="wow fadeIn" src="images/mac-about.png" alt="" />
+                        <img class="wow fadeIn" src="b/images/mac-about.png" alt="" />
                      </div>
                   </div>
                </div>
@@ -206,14 +206,14 @@
                      <p>Chamb hails from the Bosporus strait straddling Istanbul. Taking cues from this continent and culture spanning city, we bring people and place together in new and unexpected ways. Chamb may have its roots firmly planted in Turkey, but gaze out across fertile lands of Europe and you’ll see its branches spreading a canopy of connection and possibility across the globe.</p>
                   </div>
                   <div class="col-lg-8 col-lg-offset-2 wow fadeIn" style="margin-bottom:15px;" data-wow-delay="0.2s">
-                     <img class="img-responsive" src="images/lag-60.png" alt="" />
+                     <img class="img-responsive" src="b/images/lag-60.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-lg-offset-2">
                      <p>Chamb is the brainchild of Bayram Filikci. Danish born with Turkish descent, like the famously business savvy Ottomans of old, Bayram has a flair for creativity and business growth hacking. And along with Chamb’s team, we all count ourselves as passionate entrepreneurs who live for the sole purpose of finding solutions to your problems.</p>
                      <p>After gaining much experience in building business from scratch and nurturing them to fruition, the team set its sights on creating a gateway that could help fledgling companies establish new relationships that will propel them forward to unrivalled riches.</p>
                   </div>
                   <div class="col-lg-8 col-lg-offset-2 wow fadeIn" style="margin-bottom:15px;" data-wow-delay="0.2s">
-                     <img src="images/lag-61.png" alt="" />
+                     <img src="b/images/lag-61.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-lg-offset-2">
                      <h2>The ball is now yours.</h2>
@@ -331,7 +331,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="b/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
@@ -357,7 +357,7 @@
                         </li>
                      </ul>
                      <ul class="right-flag">
-                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                        <li><a href="#"><img src="b/images/flag.png" alt="" /> <span>Change</span></a></li>
                      </ul>
                   </div>
                </div>
@@ -365,13 +365,13 @@
          </div>
       </footer>
       <!--main js--> 
-      <script src="js/jquery-1.12.4.min.js"></script> 
+      <script src="b/js/jquery-1.12.4.min.js"></script> 
       <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/wow.min.js"></script>
+      <script src="b/js/bootstrap.min.js"></script> 
+      <script src="b/js/bootstrap-select.min.js"></script>
+      <script src="b/js/slick.min.js"></script> 
+      <script src="b/js/wow.min.js"></script>
       <!--custom js--> 
-      <script src="js/custom.js"></script>
+      <script src="b/js/custom.js"></script>
    </body>
 </html>

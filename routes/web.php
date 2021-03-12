@@ -51,10 +51,10 @@ Route::get('/cooming-soon', function () {
     return view('cooming-soon');
 });
 Route::get('/howitworks', function () {
-    return view('gallery');
+    return view('howitworks');
 });
 Route::get('/pricing', function () {
-    return view('dinning');
+    return view('pricing');
 });
 Route::get('/productpage', function () {
     return view('productpage');
@@ -63,3 +63,4 @@ Route::get('/productpage', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+
