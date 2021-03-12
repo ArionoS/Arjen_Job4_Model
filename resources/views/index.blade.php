@@ -1,502 +1,631 @@
-<!--Template Name: vacayhome
-File Name: home.html
-Author Name: ThemeVault
-Author URI: http://www.themevault.net/
-License URI: http://www.themevault.net/license/-->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="a/images/icons/favicon.png"/>
-        <title>ARJ HOME</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="a/css/bootstrap.min.css" rel="stylesheet">
-        <link href="a/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <!-- Custom styles for this template -->
-        <link href="a/css/style.css" rel="stylesheet">
-        <link href="a/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
-        <link rel="stylesheet" href="a/css/lightbox.min.css">
-        <link href="a/css/responsive.css" rel="stylesheet">
-        <script src="a/js/jquery.min.js" type="text/javascript"></script>
-        <script src="a/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="a/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
-        <script src="a/js/instafeed.min.js" type="text/javascript"></script>
-        <script src="a/js/custom.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <div id="page">
-            <!---header top---->
-            <div class="top-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <!--                            <a href="#"> </a>
-                                                        <div class="info-block"><i class="fa fa-map"></i>701 Old York Drive Richmond USA.</div>-->
+   <head>
+      <meta charset="UTF-8">
+      <title>Chamb - Responsive E-commerce HTML5 Template</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--enable mobile device-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--fontawesome css-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--bootstrap css-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--animate css-->
+      <link rel="stylesheet" href="css/animate-wow.css">
+      <!--main css-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="css/slick.min.css">
+      <!--responsive css-->
+      <link rel="stylesheet" href="css/responsive.css">
+   </head>
+   <body>
+      <header id="header" class="top-head">
+         <!-- Static navbar -->
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12 left-rs">
+                     <div class="navbar-header">
+                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        </button>
+                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                     </div>
+                     <form class="navbar-form navbar-left web-sh">
+                        <div class="form">
+                           <input type="text" class="form-control" placeholder="Search for products or companies">
                         </div>
-                        <div class="col-md-6">
-                            <div class="social-grid">
-                                <ul class="list-unstyled text-right">
-                                    <li><a><i class="fa fa-facebook"></i></a></li>
-                                    <li><a><i class="fa fa-twitter"></i></a></li>
-                                    <li><a><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
+                     </form>
+                  </div>
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="#">Login</a></li>
+                                 <li><a class="custom-b" href="#">Sign up</a></li>
+                              </ul>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="help-r hidden-xs">
+                           <div class="help-box">
+                              <ul>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="nav-b hidden-xs">
+                           <div class="nav-box">
+                              <ul>
+                                 <li><a href="howitworks.html">How it works</a></li>
+                                 <li><a href="about-us.html">Chamb for Business</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <!--header--->
-            <header class="header-container">
-                <div class="container">
-                    <div class="top-row">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-6 col-xs-6">
-                                <div id="logo">
-                                    <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
-                                    <a href="index.html"><span>ARJ </span>home</a>
-                                </div>                       
-                            </div>
-                            <div class="col-sm-6 visible-sm">
-                                <div class="text-right"><button type="button" class="book-now-btn">Book Now</button></div>
-                            </div>
-                            <div class="col-md-8 col-sm-12 col-xs-12 remove-padd">
-                                <nav class="navbar navbar-default">
-                                    <div class="navbar-header page-scroll">
-                                        <button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-
-                                    </div>
-                                    <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
-                                        <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                            <li><a data-hover="About" href = {{url('about')}}><span>About</span></a></li>
-                                            <li><a data-hover="Rooms" href = {{url('rooms')}}><span>Rooms</span></a></li>
-                                            <li><a data-hover="Gallery" href = {{url('gallery')}}><span>Gallery</span></a></li>
-                                            <li><a data-hover="Dinning" href = {{url('dinning')}}><span>Dinning</span></a></li>
-                                            <li><a data-hover="News" href = {{url('news')}}><span>News</span></a></li>
-                                            <li><a data-hover="Contact Us" href = {{url('contact')}}><span>contact Us</span></a></li>
-                                        </ul>
-
-                                    </div>
-                                </nav>
-                            </div>
-                            <div class="col-md-2  col-sm-4 col-xs-12 hidden-sm">
-                                <div class="text-right"><button type="button" class="book-now-btn">Book Now</button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-
-            <!--end-->
-            <div id="myCarousel1" class="carousel slide" data-ride="carousel"> 
-                <!-- Indicators -->
-
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel1" data-slide-to="1"></li>
-                    <li data-target="#myCarousel1" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active"> <img src="a/images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="a/images/banner2.jpg" style="width:100%; height: 500px" alt="Second slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="a/images/banner3.jpg" style="width:100%; height: 500px" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-
-                </div>
-                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'a/images/icons/left-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/left-arrow.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'a/images/icons/right-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/right-arrow.png'" alt="left"></a>
-
+            <!--/.container-fluid --> 
+         </nav>
+      </header>
+      <!-- Modal -->
+      <div class="modal fade lug" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Change</h4>
+               </div>
+               <div class="modal-body">
+                  <ul>
+                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                  </ul>
+               </div>
             </div>
-            <div class="clearfix"></div>
-
-            <!--service block--->
-            <section class="service-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="a/img-responsive" src="a/images/icons/wifi.png">
-                                </div>
-                                <h4><a>free wifi</a></h4>
-                            </div>
+         </div>
+      </div>
+      <div id="sidebar" class="top-nav">
+         <ul id="sidebar-nav" class="sidebar-nav">
+            <li><a href="#">Help</a></li>
+            <li><a href="howitworks.html">How it works</a></li>
+            <li><a href="#">chamb for Business</a></li>
+         </ul>
+      </div>
+      <div class="page-content-product">
+         <div class="main-product">
+            <div class="container">
+               <div class="row clearfix">
+                  <div class="find-box">
+                     <h1>Find your next product or<br>business partner here.</h1>
+                     <h4>It has never been easier.</h4>
+                     <div class="product-sh">
+                        <div class="col-sm-6">
+                           <div class="form-sh">
+                              <input type="text" placeholder="Search something you love" >
+                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/key.png">
-                                </div>
-                                <h4><a>room service</a></h4>
-                            </div>
+                        <div class="col-sm-3">
+                           <div class="form-sh">
+                              <select class="selectpicker">
+                                 <option>Textiles</option>
+                                 <option>Furniture</option>
+                                 <option>Leather</option>
+                              </select>
+                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/car.png">
-                                </div>
-                                <h4><a>free parking</a></h4>
-                            </div>
+                        <div class="col-sm-3">
+                           <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/user.png">
-                                </div>
-                                <h4><a>customer support</a></h4>
-                            </div>
+                        <p>Or simply<a href="#"> click here </a> and get inspired!</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row clearfix">
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/1.png" alt="" />
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--gallery block--->
-            <section class="gallery-block gallery-front">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room1.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room1.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>delux room</a></p>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/2.png" alt="" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room2.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room2.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>super room</a></p>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/4.png" alt="" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room3.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room3.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>single room</a></p>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/5.png" alt="" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room4.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room4.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>double room</a></p>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/10.png" alt="" />
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--offer block-->
-            <section class="vacation-offer-block">
-                <div class="vacation-offer-bgbanner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-6 col-xs-12">
-                                <div class="vacation-offer-details">
-                                    <h1>Your vacation Awaits</h1>
-                                    <h4>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</h4>
-                                    <button type="button" class="btn btn-default">Choose a package</button>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/11.png" alt="" />
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!--End-->
-
-            <!----resort-overview--->
-            <section class="resort-overview-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-                            <div class="side-A">
-                                <div class="product-thumb">
-                                    <div class="image">
-                                        <a><img src="a/images/category1.png" class="img-responsive" alt="image"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="side-B">
-                                <div class="product-desc-side">
-                                    <h3><a>luxury spa</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/12.png" alt="" />
                         </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-                            <div class="side-A">
-                                <div class="product-thumb">
-                                    <div class="image">
-                                        <a><img alt="image" class="img-responsive" src="a/images/category2.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="side-B">
-                                <div class="product-desc-side">
-                                    <h3><a>Beatusish ingl</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-md-3">
+                     <a href="productpage.html">
+                        <div class="box-img">
+                           <h4>Product</h4>
+                           <img src="images/product/13.png" alt="" />
                         </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-                            <div class="side-A">
-                                <div class="product-desc-side">
-                                    <h3><a>luxury room</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-
-                            <div class="side-B">
-                                <div class="product-thumb">
-                                    <div class="image txt-rgt">
-                                        <a class="arrow-left"><img src="a/images/category3.png" class="img-responsive" alt="imaga"></a>
-                                    </div>
-                                </div>
-                            </div>
+                     </a>
+                  </div>
+                  <div class="categories_link">
+                     <a href="#">Browse all categories here</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="cat-main-box">
+         <div class="container">
+            <div class="row panel-row">
+               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.0s">
+                  <div class="panel panel-default">
+                     <div class="panel-body">
+                        <img src="images/xpann-icon.jpg" class="icon-small" alt="">
+                        <h4>“Chamb” Your Business</h4>
+                        <p>Grow easily with chamb. Create free account.
+                           We help expanding your business easily.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                  <div class="panel panel-default">
+                     <div class="panel-body">
+                        <img src="images/create-icon.jpg" class="icon-small" alt="">
+                        <h4>Create and add</h4>
+                        <p>Grow easily with chamb. Create free account.
+                           We help expanding your business easily.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 wow fadeIn hidden-sm" data-wow-delay="0.4s">
+                  <div class="panel panel-default">
+                     <div class="panel-body">
+                        <img src="images/get-icon.jpg" class="icon-small" alt="">
+                        <h4>Get inspired</h4>
+                        <p>Grow easily with chamb. Create free account.
+                           We help expanding your business easily.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="products_exciting_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                  <div class="exciting_box f_pd">
+                     <img src="images/exciting_img-01.jpg" class="icon-small" alt="" />
+                     <h4>Explore <strong>exciting</strong> and exotic products
+                        tailored to you.
+                     </h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris..
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                  <div class="exciting_box l_pd">
+                     <img src="images/exciting_img-02.jpg" class="icon-small" alt="" />
+                     <h4><strong>List your products on</strong> chamb and grow connections.</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris..
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="start-free-box">
+         <div class="container">
+            <div class="row">
+               <div class="container">
+                  <div class="main-start-box">
+                     <div class="free-box-a clearfix">
+                        <div class="col-md-6 col-sm-6">
+                           <div class="left-a-f">
+                              <h3>A platform built for scale & expansion. Start for free.</h3>
+                           </div>
                         </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-                            <div class="side-A">
-                                <div class="product-desc-side">
-                                    <h3><a>heaven seanery</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-
-                            <div class="side-B">
-                                <div class="product-thumb txt-rgt">
-                                    <div class="image">
-                                        <a class="arrow-left"><img src="a/images/category4.png" class="img-responsive" alt="imaga"></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-6 col-sm-6">
+                           <div class="right-a-f">
+                              <p>Over the comming years, way thet business through the web
+                                 works will change at agreat - and chamb is the
+                                 gamebreaker.
+                              </p>
+                           </div>
                         </div>
-                        <div class="clearfix"></div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-----blog slider----->
-            <!--blog trainer block-->
-            <section class="blog-block-slider">
-                <div class="blog-block-slider-fix-image">
-                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-                        <div class="container">
-                            <!-- Wrapper for slides -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel2" data-slide-to="1"></li>
-                                <li data-target="#myCarousel2" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client1.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Walter Hucko</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client2.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Jules Boutin</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client3.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Attilio Marzi</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="main-start-box">
+                  <div class="bg_img_left"><img src="images/bg_img1.png" alt="#" /></div>
+                  <div class="container">
+                     <div class="buyer-box clearfix">
+                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                           <div class="left-buyer">
+                              <img class="img-responsive" src="images/creat_pro.png" alt="#" />
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </section>
-
-            <!---blog block--->
-            <section class="blog-block">
-                <div class="container">
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="a/images/blog1.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-blog.html">Lorem ipsum dolor sit amet</a></h4>
-                                    <h5>Post By Admin <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-blog.html">Read More</a>
-                                </div>
-                            </div>
+                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                           <div class="right-buyer">
+                              <h4>buyer</h4>
+                              <h2>Empower your factory<br>
+                                 <span>With a new lead Channel</span>
+                              </h2>
+                              <p>Never worry about sales or income ftom outbound
+                                 channels. with chamb your store is directly
+                                 connected to thousands of interested in your
+                                 products.
+                              </p>
+                              <a href="#">Create a buyer account</a>
+                           </div>
                         </div>
-                    </div>
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="a/images/blog2.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-blog.html">Lorem ipsum dolor sit amet</a></h4>
-                                    <h5>Post By Admin <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-blog.html">Read More</a>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="bg_img_right"><img src="images/bg_img1.png" alt="#" /></div>
+               <div class="main-start-box">
+                  <div class="container">
+                     <div class="supplier clearfix">
+                        <div class="col-md-5 col-sm-6">
+                           <div class="left-supplier">
+                              <h4>supplier</h4>
+                              <h2>Grow your store <br><span>With a new sales channel</span></h2>
+                              <p>Never worry about sales or income ftom outbound
+                                 channels. with chamb your store is directly
+                                 connected to thousands of interested in your
+                                 products.
+                              </p>
+                              .
+                              <a href="#">Create a supplier account</a>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!---footer--->
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-set-50">
-                            <div class="footer-details">
-                                <h4>Get in touch</h4>
-                                <ul class="list-unstyled footer-contact-list">
-                                    <li>
-                                        <i class="fa fa-map-marker fa-lg"></i>
-                                        <p>701 Old York Drive Richmond USA.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-phone fa-lg"></i>
-                                        <p><a href="tel:+1-202-555-0100"> +1-202-555-0100</a></p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope-o fa-lg"></i>
-                                        <p><a href="mailto:demo@info.com"> demo@info.com</a></p>
-                                    </li>
-                                </ul>
-                                <div class="footer-social-icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>                           
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                </div>
-                                <div class="input-group" id="subscribe">
-                                    <input type="text" class="form-control subscribe-box" value="" name="subscribe" placeholder="EMAIL ID">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn subscribe-button"><i class="fa fa-paper-plane fa-lg"></i></button>
-                                    </span>
-                                </div>
-                            </div>
+                        <div class="col-md-7 col-sm-6">
+                           <div class="right-supplier">
+                              <img class="img-responsive" src="images/supplier-pc-img.png" alt="#" />
+                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-50 width-set-50">
-                            <div class="footer-details">
-                                <h4>explore</h4>
-                                <ul class="list-unstyled footer-links">
-                                    <li class="active"><a>Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li> <a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="products">
+         <div class="main-products">
+            <h2>TRENDING PRODUCTS ON CHAMB</h2>
+            <div class="product-slidr">
+               <div class="slider">
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr1.png" alt="#" />
                         </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="footer-details">
-                                <h4>Now On Instagram</h4>
-                                <div class="row">
-                                    <div class="instagram-images">
-                                        <div id="instafeed"></div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Table with Lights</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
                         </div>
-                    </div>
-
-                    <div class="copyright">
-                        &copy; 2017 All right reserved. Designed by <a href="http://www.themevault.net/" target="_blank">ThemeVault.</a>
-                    </div>
-
-                </div>
-            </footer>
-
-            <!--back to top--->
-            <a style="display: none;" href="javascript:void(0);" class="scrollTop back-to-top" id="back-to-top">
-                <span><i aria-hidden="true" class="fa fa-angle-up fa-lg"></i></span>
-                <span>Top</span>
-            </a>
-
-        </div>
-    </body>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr2.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Treehouse Bed</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr3.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Wood Sofaplatform</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr4.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Wall Sticker</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr1.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Treehouse Bed</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr2.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Treehouse Bed</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="prod-box">
+                        <div class="prod-i">
+                           <img src="images/tr3.png" alt="#" />
+                        </div>
+                        <div class="prod-dit clearfix">
+                           <div class="dit-t clearfix">
+                              <div class="left-ti">
+                                 <h4>Treehouse Bed</h4>
+                                 <p>By <span>Beko</span> under <span>Lights</span></p>
+                              </div>
+                              <a href="#">$1220</a>
+                           </div>
+                           <div class="dit-btn clearfix">
+                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
+                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="main-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="footer-top clearfix">
+                     <div class="col-md-2 col-sm-6">
+                        <h2>Start a free
+                           account today
+                        </h2>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="form-box">
+                           <input type="text" placeholder="Enter yopur e-mail" />
+                           <button>Continue</button>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                        <div class="help-box-f">
+                           <h4>Question? Call us on 12 34 56 78 for help</h4>
+                           <p>Easy setup - no payment fees - up to 100 products for free</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-link-box clearfix">
+                     <div class="col-md-6 col-sm-6">
+                        <div class="left-f-box">
+                           <div class="col-sm-4">
+                              <h2>SELL ON chamb</h2>
+                              <ul>
+                                 <li><a href="#">Create account</a></li>
+                                 <li><a href="howitworks.html">How it works suppliers</a></li>
+                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href="#">FAQ for Suppliers</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>BUY ON chamb</h2>
+                              <ul>
+                                 <li><a href="#">Create account</a></li>
+                                 <li><a href="#">How it works buyers</a></li>
+                                 <li><a href="#">Categories</a></li>
+                                 <li><a href="#">FAQ for buyers</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>COMPANY</h2>
+                              <ul>
+                                 <li><a href="about-us.html">About chamb</a></li>
+                                 <li><a href="#">Contact us</a></li>
+                                 <li><a href="#">Press</a></li>
+                                 <li><a href="#">Careers</a></li>
+                                 <li><a href="#">Terms of use</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="right-f-box">
+                           <h2>INDUSTRIES</h2>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Textiles</a></li>
+                              <li><a href="#">Furniture</a></li>
+                              <li><a href="#">Leather</a></li>
+                              <li><a href="#">Agriculture</a></li>
+                              <li><a href="#">Food & drinks</a></li>
+                           </ul>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Office</a></li>
+                              <li><a href="#">Decoratives</a></li>
+                              <li><a href="#">Electronics</a></li>
+                              <li><a href="#">Machines</a></li>
+                              <li><a href="#">Building</a></li>
+                           </ul>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Cosmetics</a></li>
+                              <li><a href="#">Health</a></li>
+                              <li><a href="#">Jewelry</a></li>
+                              <li><a href="#">See all here</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="list-inline socials">
+                        <li>
+                           <a href="">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="right-flag">
+                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--main js--> 
+      <script src="js/jquery-1.12.4.min.js"></script> 
+      <!--bootstrap js--> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/slick.min.js"></script> 
+      <script src="js/wow.min.js"></script>
+      <!--custom js--> 
+      <script src="js/custom.js"></script>
+   </body>
 </html>
