@@ -35,32 +35,31 @@ use Illuminate\Support\Facades\Route;
   //  return view('news');
 //});
 
-Route::get('/news', function () {
-    return view('news');
-});
 Route::get('/', function () {
-    return view('ind');
+    return view('index');
 });
-Route::get('/about', function () {
-    return view('about');
+Route::get('/about-us', function () {
+    return view('about-us');
 });
-Route::get('/rooms', function () {
-    return view('rooms');
+Route::get('/category', function () {
+    return view('category');
 });
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/cms', function () {
+    return view('cms');
 });
-Route::get('/gallery', function () {
+Route::get('/cooming-soon', function () {
+    return view('cooming-soon');
+});
+Route::get('/howitworks', function () {
     return view('gallery');
 });
-Route::get('/dinning', function () {
+Route::get('/pricing', function () {
     return view('dinning');
 });
-Route::get('/news', function () {
-    return view('news');
+Route::get('/productpage', function () {
+    return view('productpage');
 });
-/*
-Route::get('/news', function () {
-    return view('news');
+
+Route::get('/profile', function () {
+    return view('profile');
 });
-*/
