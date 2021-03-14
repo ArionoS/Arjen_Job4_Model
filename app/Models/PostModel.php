@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class PostModel extends Model
 {
     use HasFactory;
+    protected $table = ‘my_posts’;
+ protected $primaryKey = ‘my_id’;
+ protected $keyType = ‘string’;
+ public $incrementing = false;
 }
